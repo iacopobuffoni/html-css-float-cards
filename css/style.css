@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Martel', serif;
+}
+
+#purple {
+    color: #e43170;
+    margin: 30px;
+    font-weight: 900;
+}
+
+.contenitore1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#center, #purple {
+    text-align: center;
+}
+
+.contenitore2 {
+    margin-top: 50px;
+}
+
+.box {
+    background-color: black;
+    width: calc(100% / 3);
+    float: left;
+    margin-right: 25px;
+}
+
+.box > img {
+    float: left;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.content {
+    color: white;
+    padding-top: 6px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.contact {
+    color: #74cdf0;
+    font-size: small;
+}
