@@ -29,9 +29,11 @@ body {
 
 .box {
     background-color: black;
-    width: calc(100% / 3);
+    width: 31%;
     float: left;
     margin-right: 25px;
+    border: 1px solid;
+    box-shadow: 5px 10px 18px black;
 }
 
 .box > img {
@@ -58,4 +60,8 @@ body {
 .contact {
     color: #74cdf0;
     font-size: small;
+}
+
+.line {
+    margin-bottom: 50px;
 }
